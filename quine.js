@@ -1,0 +1,1 @@
+const s = 'const s = "X"; console.log(s.replace(String.fromCodePoint(0x22) + "X" + String.fromCodePoint(0x22), String.fromCodePoint(0x27) + s + String.fromCodePoint(0x27)));'; console.log(s.replace(String.fromCodePoint(0x22) + "X" + String.fromCodePoint(0x22), String.fromCodePoint(0x27) + s + String.fromCodePoint(0x27)));
